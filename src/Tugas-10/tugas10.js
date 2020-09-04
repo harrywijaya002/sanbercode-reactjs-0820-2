@@ -2,21 +2,13 @@ import React, { Component } from "react";
 import "./tugas10.css";
 
 class Tugas10 extends Component {
-  constructor() {
-    super();
-    this.state = {
-      dataHargaBuah: [
-        { nama: "Semangka", harga: 10000, berat: 1000 },
-        { nama: "Anggur", harga: 40000, berat: 500 },
-        { nama: "Strawberry", harga: 30000, berat: 400 },
-        { nama: "Jeruk", harga: 30000, berat: 1000 },
-        { nama: "Mangga", harga: 30000, berat: 500 },
-      ],
-    };
+  constructor(props) {
+    super(props);
+    this.props = props;
   }
 
   createFruitTable() {
-    return this.state.dataHargaBuah.map((fruit, index) => {
+    return this.props.fruits.map((fruit, index) => {
       let { nama, harga, berat } = fruit;
       return (
         <tr key={nama}>
