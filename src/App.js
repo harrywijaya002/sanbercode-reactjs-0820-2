@@ -1,39 +1,14 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Tugas9 from "./Tugas-9/tugas9";
+import Tugas10 from "./Tugas-10/tugas10";
 
 function App() {
   return (
-    <div className="App">
-      <div className="form">
-        <div className="judul">
-          <h1>Form Pembelian Buah</h1>
-        </div>
-
-        <label htmlFor="nama">Nama pelanggan</label>
-        <input id="namaPelanggan" type="text" />
-        <br />
-        <br />
-
-        <label id="daftar" htmlFor="daftarItem">
-          Daftar Item
-        </label>
-        <div className="buah">
-          <input type="checkbox" /> Semangka
-          <br />
-          <input type="checkbox" /> Jeruk
-          <br />
-          <input type="checkbox" /> Nanas
-          <br />
-          <input type="checkbox" /> Salak
-          <br />
-          <input type="checkbox" /> Anggur
-        </div>
-        <br />
-        <br />
-
-        <button>Kirim</button>
-      </div>
+    <div>
+      <Tugas9></Tugas9>
+      <Tugas10></Tugas10>
     </div>
   );
 }
