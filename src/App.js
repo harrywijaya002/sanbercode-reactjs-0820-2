@@ -3,6 +3,7 @@ import "./App.css";
 import Tugas9 from "./Tugas-9/tugas9";
 import Tugas10 from "./Tugas-10/tugas10";
 import Tugas11 from "./Tugas-11/Tugas11";
+import Tugas12 from "./Tugas-12/tugas12";
 
 let dataHargaBuah = [
   { nama: "Semangka", harga: 10000, berat: 1000 },
@@ -31,6 +32,7 @@ class App extends Component {
         {this.state.render ? (
           <Tugas11 handleUnmount={this.handleUnmount}></Tugas11>
         ) : null}
+        <Tugas12></Tugas12>
       </div>
     );
   }
