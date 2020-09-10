@@ -4,7 +4,8 @@ import "./App.css";
 // import Tugas10 from "./Tugas-10/tugas10";
 // import Tugas11 from "./Tugas-11/Tugas11";
 // import Tugas12 from "./Tugas-12/tugas12";
-import Tugas13 from "./Tugas-13/tugas13";
+// import Tugas13 from "./Tugas-13/tugas13";
+import Tugas14 from "./Tugas-14/tugas14";
 
 // let dataHargaBuah = [
 //   { nama: "Semangka", harga: 10000, berat: 1000 },
@@ -34,7 +35,8 @@ class App extends Component {
           <Tugas11 handleUnmount={this.handleUnmount}></Tugas11>
         ) : null}
         <Tugas12></Tugas12> */}
-        <Tugas13></Tugas13>
+        {/* <Tugas13></Tugas13> */}
+        <Tugas14></Tugas14>
       </div>
     );
   }
